@@ -3,7 +3,6 @@ import {Link } from 'react-router';
 import {connect} from 'react-redux';
 import * as actions from '../actions';
 
-console.log('actions', actions);
 class Header extends Component {
   authButton() {
     if(this.props.authenticated) {
